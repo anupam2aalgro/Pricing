@@ -1,0 +1,49 @@
+body {
+	margin: 30px 0 50px 30px;
+	font-family: "Lucida Sans Unicode","Lucida Grande",sans-serif;
+	color: #444444;
+	font-size: 13px;
+}
+
+#app-contents {
+	overflow: hidden;
+}
+
+
+/* Index View */
+#home-tabs {
+	overflow: hidden;
+	margin: 0 0 80px 0;
+	position: relative;
+}
+
+#aalgro-logo {
+	float: left;
+	margin: 0 100px 0 0;
+}
+
+#home-tabs a {
+	text-decoration: none;
+	display: block;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background-color: #58CFFF;
+	color: white;
+	padding: 8px;
+	width: 100px;
+	float: left;
+	margin: 0 30px 0 0;
+	text-align: center;
+}
+
+#pricing-tab {
+	margin: 0px !important;
+}
+
+.home-tab-active {
+	background-color: #139DE8 !important;
+}
+
+#contents {
+	overflow-y: auto;
+}

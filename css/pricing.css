@@ -1,0 +1,262 @@
+/* Pricing Loader View */
+#pricing-items-loader {
+	padding: 20px;
+	background-color: #f8f8f8;
+	border: 1px solid #e9e9e9;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+#pricing-items-loader img {
+	width: 20px;
+	display: block;
+	margin: 0 auto;
+}
+
+
+/* Pricing Items View */
+#pricing-items {
+	width: 630px;
+}
+
+.pricing-item-category {
+	margin: 0 0 40px 0;
+}
+
+.pricing-item-category-name {
+	font-weight: bold;
+	color: #139DE8;
+	font-size: 12px;
+	margin: 0 0 10px 0;
+	position: relative;
+	padding-left: 25px;
+}
+
+.pricing-item-category-name input[type="checkbox"] {
+	margin: 0px;
+	position: absolute;
+	top: 2px;
+	left: 0px;
+} 
+
+.pricing-item-category-items {
+	overflow: hidden;
+}
+
+.pricing-item-category-item {
+	width: 150px;
+	cursor: pointer;
+	padding: 5px 0;
+	margin: 0 10px 10px 0;
+	float: left;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.pricing-item-category-item:nth-child(4n+0) {
+	margin-right: 0px !important;
+}
+
+.pricing-item-category-item-chosen {
+	background-color: #999999;
+	color: white;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#send-selected-items {
+	display: none;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background-color: #139DE8;
+	color: white;
+	padding: 8px;
+	width: 100px;
+	cursor: pointer;
+	text-align: center;
+	position: fixed;
+}
+
+
+/* Pricing Items Suppliers Table View */
+#pricing-table-options {
+	overflow: hidden;
+	height: 70px;
+}
+
+#pricing-table-save-prices {
+	display: none;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background-color: #139DE8;
+	color: white;
+	padding: 5px;
+	width: 100px;
+	cursor: pointer;
+	text-align: center;
+	float: left;
+	margin: 0 70px 0px 0;
+}
+
+#pricing-table-excel-container {
+	overflow: hidden;
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+#prepare-excel {
+	display: none;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background-color: #139DE8;
+	color: white;
+	padding: 5px;
+	width: 100px;
+	cursor: pointer;
+	text-align: center;
+	float: left;
+	margin: 0 10px 0px 0;
+}
+
+#excel-error {
+	display: none;
+	float: left;
+	color: #FF717E;
+	border: 1px solid #FF717E;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 4px;
+}
+
+#excel-prices-container {
+	display: none;
+	float: left;
+	margin: 0 15px 0 0;
+}
+
+.excel-price-option {
+	margin: 0 0 2px 0;
+}
+
+.excel-price-option input[type="radio"] {
+	margin: 0 5px 0 0;
+	padding: 0px;
+}
+
+#create-excel {
+	display: none;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background-color: #139DE8;
+	color: white;
+	padding: 5px;
+	width: 80px;
+	cursor: pointer;
+	text-align: center;
+	float: left;
+}
+
+#pricing-items-suppliers-table {
+	border: 1px solid #cccccc;
+	border-collapse: collapse;
+}
+
+#pricing-items-suppliers-table th,td { 
+	border: 1px solid #cccccc;
+	vertical-align: top;
+	text-align: left;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	white-space: nowrap;
+}
+
+#pricing-items-suppliers-table th {
+	padding: 10px;
+	background-color: #f8f8f8;
+	font-weight: normal;
+	color: black;
+	font-size: 12px;
+}
+
+#pricing-items-suppliers-table td {
+	padding: 8px;
+}
+
+#pricing-items-suppliers-table td input[type="text"] {
+	border: 1px solid #cccccc;
+	resize:none;
+	outline: none;
+	font-size: inherit;
+	font-family: inherit;
+	color: inherit;
+	width: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 3px;
+	background-color: #fbf4c3;
+}
+
+#pricing-items-suppliers-table td i {
+	cursor: pointer;
+}
+
+.pricing-table-item-category {
+	font-weight: bold;
+	color: #139DE8;
+	font-size: 12px;
+} 
+
+.pricing-table-item-name {
+	width: 130px;
+}
+
+.pricing-table-item-variety {
+	width: 130px;
+}
+
+.pricing-table-item-unit {
+	width: 60px;
+}
+
+.pricing-table-supplier {
+	width: 90px;
+	max-width: 90px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	color: black;
+}
+
+.pricing-table-supplier-101 {
+	background-color: #e6f3e5;
+}
+
+.pricing-table-supplier-102 {
+	background-color: #f9e2c0;
+}
+
+.pricing-table-supplier-103 {
+	background-color: #e3f7e0;
+}
+
+.pricing-table-price-1 {
+	width: 70px;
+}
+
+.pricing-table-price-2 {
+	width: 70px;
+}
+
+.pricing-table-price-3 {
+	width: 70px;
+}
+
+.pricing-table-edit {
+	text-align: center;
+	width: 30px;
+}
+
+.pricing-table-edit input[type="checkbox"] { 
+	margin: 0;
+	padding: 0;
+}

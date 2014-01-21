@@ -1,0 +1,268 @@
+/* Items View */
+#items-tabs {
+	overflow: hidden;
+}
+
+.item-category-tab {
+	text-decoration: none;
+	float: left;
+	width: 100px;
+	color: #444444;
+	padding: 8px;
+	margin: 0 30px 0 0;
+	text-align: center;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: 1px solid #cccccc;
+	background-color: #e9e9e9;
+}
+
+.item-category-tab-active {
+	background-color: #cccccc;
+	border: 1px solid #999999;
+}
+
+#vegetables-items {
+	margin: 0px !important;
+}
+
+#item-category-contents {
+	margin: 50px 0 0 0;
+}
+
+
+/* Items Loader View */
+#all-items-loader {
+	padding: 20px;
+	background-color: #f8f8f8;
+	border: 1px solid #e9e9e9;
+	width: 620px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+#all-items-loader img {
+	width: 20px;
+	display: block;
+	margin: 0 auto;
+}
+
+
+/* Items Category View */
+#all-items-table {
+	border: 1px solid #cccccc;
+	border-collapse: collapse;
+}
+
+#all-items-table th,td { 
+	border: 1px solid #cccccc;
+	vertical-align: top;
+	text-align: left;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+#all-items-table th {
+	padding: 10px;
+	background-color: #f8f8f8;
+	font-weight: normal;
+	color: black;
+}
+
+#all-items-table td {
+	padding: 8px;
+}
+
+#all-items-table td i {
+	cursor: pointer;
+}
+
+.sep-div {
+	margin: 0 0 10px 0;
+	position: relative;
+	overflow: hidden;
+}
+
+.sep-div:last-child {
+	margin: 0px;
+}
+
+.item-header-name {
+	width: 230px;
+}
+
+.item-header-units {
+	width: 200px;
+}
+
+.item-header-varieties {
+	width: 230px;
+}
+
+.item-header-edit {
+	width: 150px;
+	text-align: center;
+}
+
+#add-save-more-items {
+	margin: 40px 0 0 0;
+	overflow: hidden;
+}
+
+#add-more-items {
+	float: left;
+	margin: 0 30px 0 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background-color: #E9E9E9;
+	color: black;
+	padding: 5px;
+	width: 100px;
+	float: left;
+	text-align: center;
+	border: 1px solid #cccccc;
+	cursor: pointer;
+}
+
+#save-new-items {
+	display: none;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background-color: #58CFFF;
+	color: white;
+	padding: 5px;
+	width: 100px;
+	float: left;
+	text-align: center;
+	border: 1px solid #58CFFF;
+	cursor: pointer;
+}
+
+
+/* Item Row Edit View */
+.item-row-edit {
+	background-color: #f8f8f8;
+	color: black;
+}
+
+.td-div {
+	height: 100%;
+}
+
+.item-row input[type="text"] {
+	border: 1px solid #cccccc;
+	resize:none;
+	outline: none;
+	font-size: inherit;
+	font-family: inherit;
+	color: inherit;
+	width: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 3px;
+	z-index: 1000;
+}
+
+.item-row input[type="text"]:disabled {
+	background-color: white;
+}
+
+.item-name-edit {
+	position: absolute;
+	top: 5px;
+	right: 3px;
+	background-color: white;
+	z-index: 1001;
+}
+
+.error {
+	display: none;
+	margin: 0 0 20px 0;
+	background-color: #FF717E;
+	color: white;
+	width: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 4px;
+}
+
+.item-row input[type="checkbox"] {
+	margin: 5px 10px 0 0;
+}
+
+.item-variety-edit {
+	position: absolute;
+	top: 5px;
+	right: 4px;
+	background-color: white;
+	z-index: 1001;
+}
+
+.item-variety-delete {
+	position: absolute;
+	top: 5px;
+	right: 4px;
+	background-color: white;
+	z-index: 1001;
+}
+
+.add-variety-button {
+	margin: 10px 0 0 0;
+}
+
+.item-row-save {
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+.item-row-delete {
+	float: left;
+}
+
+.item-row-cancel {
+	float: right;
+}
+
+.item-local-loader {
+	display: block;
+	width: 20px;
+	margin: 20px auto 0 auto;
+}
+
+.item-confirm-delete {
+	margin: 30px 0 0 0;
+	display: none;
+}
+
+.item-confirm-delete-header {
+	width: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background-color: #cccccc;
+	color: black;
+	padding: 4px;
+	text-align: center;
+}
+
+.item-confirm-delete-controls {
+	overflow: hidden;
+	margin: 10px 0 0 0;
+}
+
+.item-confirm-delete-yes {
+	float: left;
+	width: 50px;
+	cursor: pointer;
+	background-color: #cccccc;
+	color: black;
+	padding: 4px;
+}
+
+.item-confirm-delete-no {
+	float: right;
+	width: 50px;
+	cursor: pointer;
+	background-color: #FF717E;
+	color: white;
+	padding: 4px;
+}
